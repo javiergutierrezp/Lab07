@@ -24,4 +24,4 @@ const wizardSchema = mongoose.Schema({
 
 const Wizard = mongoose.model('Wizard', wizardSchema)
 
-module.exports = Person
+module.exports = Wizard
