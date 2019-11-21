@@ -1,6 +1,5 @@
 const Wizard = require('../models/wizard.js')
 
-User
 
 const getWizards = function(req, res) {
   Wizard.find({}).then(function(wizards) {
